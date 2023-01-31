@@ -7,9 +7,9 @@ public class Person {
     private UUID id;
     private String name;
 
-    public Person(UUID id, String name) {
+    public Person(UUID id, String person) {
         this.id =id;
-        this.name = name;
+        this.name = person;
     }
 
     public UUID getId() {
