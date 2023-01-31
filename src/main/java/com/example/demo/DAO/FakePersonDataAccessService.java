@@ -20,4 +20,10 @@ public class FakePersonDataAccessService implements PersonDAO{
         return 1;
     }
 
+    @Override
+    public List<Person> selectAllPeople() {
+        // TODO Auto-generated method stub
+        return DB;
+    }
+
 }
